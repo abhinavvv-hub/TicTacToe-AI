@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine"
+    data-aos-delay="300"
+    data-aos-offset="0" data-aos-duration="500" class="choice-box" id="choice-box">
+        <h2>Choose Your Symbol</h2>
+        <button onclick="chooseSymbol('X')">Play as X</button>
+        <button onclick="chooseSymbol('O')">Play as O</button>
+    </div>
+    <div class="container" id="game-container">
+        <h1 data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="500" data-aos-duration="2500" >Tic Tac Toe</h1>
+        <div class="board" id="board"></div>
+        <div class="message" id="message"></div>
+        <button data-aos="zoom-out" data-aos-duration="2500" class="reset" onclick="resetGame()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
