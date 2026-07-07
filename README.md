@@ -37,7 +37,7 @@ Since this is a client-side web application, you do not need to install any heav
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/abhinavvv-hub/TicTacToe-AI.git](https://github.com/abhinavvv-hub/TicTacToe-AI.git)
+   git clone **[https://github.com/abhinavvv-hub/TicTacToe-AI.git](https://github.com/abhinavvv-hub/TicTacToe-AI.git)**
    cd TicTacToe-AI
    ```
 2. File Structure Check: Ensure your local workspace contains your three primary assets matching the file paths:
