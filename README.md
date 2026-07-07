@@ -2,6 +2,10 @@
 
 A sleek, responsive browser-based Tic-Tac-Toe game featuring an unbeatable AI opponent driven by the Minimax algorithm. The game includes fluid introduction animations using the AOS library.
 
+## 🔗 Live Demo
+Deployments are continuously updated. You can play the live version of the game here:
+👉 **[tictactoe0ai.netlify.app](https://tictactoe0ai.netlify.app/)**
+
 ## 🎮 Live Preview
 - **Symbol Selection:** Players choose to play as either `X` or `O`.
 - **Game Layout:** A responsive, modern grid system wrapped in interactive animations.
